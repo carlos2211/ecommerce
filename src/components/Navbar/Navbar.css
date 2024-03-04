@@ -1,0 +1,28 @@
+.containerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px; 
+    background-color: #f0f0f0; 
+    font-size: larger;
+}
+
+.containerNav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.containerNav ul li {
+    margin-right: 30px; 
+}
+
+.containerNav div {
+    font-size: 30px; 
+}
+
+.cartWidget{
+    margin-right: 40px;
+}
