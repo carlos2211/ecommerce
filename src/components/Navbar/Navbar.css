@@ -1,7 +1,7 @@
 .containerNav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    align-items: baseline;
     width: 100%;
     padding: 10px 20px; 
     background-color: #f0f0f0; 
@@ -23,6 +23,11 @@
     font-size: 30px; 
 }
 
-.cartWidget{
-    margin-right: 40px;
+.nav-link.active{
+    color:red;
+    font-weight: 600;
+}
+
+.nav-link{
+    color:black
 }
