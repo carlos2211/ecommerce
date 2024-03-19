@@ -1,0 +1,78 @@
+
+ export const products = [
+    {
+        id: 1,
+        stock: 20,
+        title: "Camisa de hombre azul",
+        img: "https://www.paris.cl/dw/image/v2/BCHW_PRD/on/demandware.static/-/Sites-paris-marketplace/default/dw9af4b868/images/imagenes-productos/800/MKYC/MKYC8ISRS1-0400-000.jpg?sw=72",
+        description: "Camisa Azul de algodón para hombre.",
+        price: 28.99,
+        category: "RopaHombre",
+    },
+    {
+        id: 2,
+        stock: 20,
+        title: "Camisa de hombre lineas",
+        img: "https://www.mcgregor.cl/media/catalog/product/m/g/mgi301305n001_04.jpg",
+        description: "Camisa de algodón con lineas para hombre.",
+        price: 25.99,
+        category: "RopaHombre",
+    },
+    {
+        id: 3,
+        stock: 15,
+        title: "Vestido Flores de mujer",
+        img: "https://roxy.cl/medias/ROXY-RXARJKD0321965-VIEW1.jpg?context=bWFzdGVyfGltYWdlc3wzMDA1NDR8aW1hZ2UvanBlZ3xhR05qTDJoaU9TODVNRGszTURnNE5EQXhORE00TDFKUFdGbGZVbGhCVWtwTFJEQXpNakU1TmpWZlZrbEZWekV1YW5CbnwzZjhlMjQ4ZTgzM2JkMmZkMjNlNDgwZWFkMmE2ZTk0NzI2ZWFmYTY4NzMxMGZhZjJhY2U4YmFlMWZlYTY5ZGQ2",
+        description: "Vestido flores para mujer.",
+        price: 39.99,
+        category: "RopaMujer",
+    },
+    {
+        id: 4,
+        stock: 15,
+        title: "Vestido Negro de mujer",
+        img: "https://www.leidiro.cl/cdn/shop/products/v344281jgri0s_-19-c4922ae4-0c87-4d07-b1ef-45009570d155.jpg?v=1687976758&width=1000",
+        description: "Vestido Negro elegante para mujer.",
+        price: 39.99,
+        category: "RopaMujer",
+    },
+    {
+        id: 5,
+        stock: 30,
+        title: "Zapatos paw patrol de niño",
+        img: "https://home.ripley.cl/store/Attachment/WOP/D313/2000398458269/2000398458269-1.jpg",
+        description: "Zapatos paw patrol para niño.",
+        price: 19.99,
+        category: "RopaNinos",
+    },
+    {
+        id: 6,
+        stock: 30,
+        title: "Bototos de niño",
+        img: "https://contents.mediadecathlon.com/p2579568/k$376c6239f4c6a4d0a5e76307b4397545/bototos-impermeables-de-montana-y-trekking-ninos-mh120-mid-verde.jpg?format=auto&quality=40&f=800x800",
+        description: "Bototos cafes para niño.",
+        price: 19.99,
+        category: "RopaNinos",
+    },
+    {
+        id: 7,
+        stock: 25,
+        title: "Gorra Lana",
+        img: "https://home.ripley.cl/store/Attachment/WOP/D170/2000393519033/2000393519033_2.jpg",
+        description: "Gorra unisex.",
+        price: 12.99,
+        category: "Accesorios",
+    },
+    {
+        id: 8,
+        stock: 25,
+        title: "Gorra Adidas",
+        img: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f1b5d6c6da444b97bce9aa250100578a_9366/Gorro_Beanie_Adicolor_Cuff_UNISEX_Negro_ED8712_01_standard.jpg",
+        description: "Gorra Adidas negra.",
+        price: 12.99,
+        category: "Accesorios",
+    },
+
+];
+
+export default products;

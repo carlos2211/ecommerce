@@ -1,3 +1,4 @@
+import React from "react";
 import CartWidget from './CartWidget';
 import { Link, NavLink } from 'react-router-dom';
 import "./Navbar.css"
@@ -5,21 +6,15 @@ import "./Navbar.css"
 const Navbar = () => {
     return (
         <nav className='containerNav' >
-            <div>👓</div>
-            <ul>
-                <li> 
-                    <Link to="/RopaHombre">Ropa Hombre </Link>
-                    <NavLink className="nav-link" to ="/"></NavLink>
-                </li>
-                <li> 
-                    <Link to="/RopaMujer">Ropa Mujer </Link>
-                </li>
-                <li> 
-                    <Link to="/RopaNinos">Ropa Niños </Link>
-                </li>
-                <li> 
-                    <Link to="/Accesorios">Accesorios </Link>
-                </li>
+            <Link to="/">
+                <div>👓</div>
+            </Link>
+            <ul className="containerNav--ul">                
+                <Link className="containerNav--ul--li uppercase" to="category/RopaHombre">Ropa Hombre </Link>
+                <Link className="containerNav--ul--li uppercase" to="category/RopaMujer">Ropa Mujer </Link>         
+                <Link className="containerNav--ul--li uppercase" to="category/RopaNinos">Ropa Niños </Link>
+                <Link className="containerNav--ul--li uppercase" to="category/Accesorios">Accesorios </Link>
+                
             </ul>
             <CartWidget/>
         </nav>
