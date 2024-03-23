@@ -1,9 +1,14 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  max-width: auto;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+}
 
-
+.app-container {
+  background-image: url('https://i.pinimg.com/originals/b9/b2/fa/b9b2fa8aba08e4651f9a3d180338fec2.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: auto;  */
 }
 
 .logo {

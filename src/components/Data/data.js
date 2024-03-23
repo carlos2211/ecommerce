@@ -4,7 +4,7 @@
         id: 1,
         stock: 20,
         title: "Camisa de hombre azul",
-        img: "https://www.paris.cl/dw/image/v2/BCHW_PRD/on/demandware.static/-/Sites-paris-marketplace/default/dw9af4b868/images/imagenes-productos/800/MKYC/MKYC8ISRS1-0400-000.jpg?sw=72",
+        img: "https://http2.mlstatic.com/D_NQ_NP_793609-MLC73546915179_122023-O.webp",
         description: "Camisa Azul de algodón para hombre.",
         price: 28.99,
         category: "RopaHombre",

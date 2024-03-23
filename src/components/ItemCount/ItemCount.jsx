@@ -8,10 +8,10 @@ export const ItemCount = () => {
 		<div>
 			<div>
 				<button onClick={decrement}>Restar</button>
-				<span>{count}</span>
+				<span className="text-white m-3">{count}</span>
 				<button onClick={increment}>Sumar</button>
 			</div>
-			<button onClick={addToCart}>Agregar al 🛒</button>
+			<button  className=" mt-3" onClick={addToCart}>Agregar al 🛒</button>
 		</div>
 	);
 };
