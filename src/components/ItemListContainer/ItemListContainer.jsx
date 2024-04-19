@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { products } from "../data/data";
 import { ItemList } from "../ItemList/ItemList";
 import "./ItemListContainer.css";
 import { getProducts, getProductsByCategory } from "../../services/firebase";
@@ -11,11 +10,6 @@ import { Loader } from "../Loader/Loader"
 	const [loading, setLoading] = useState(true);
 	const [myProducts, setMyProducts] = useState([]);
 
-	// const myPromise = new Promise((resolve) => {
-	// 	setTimeout(() => {
-	// 		resolve(products);
-	// 	}, 1500);
-	// });
 	useEffect(() => {
 		setLoading(true);
 		
