@@ -17,7 +17,7 @@ export const ItemDetail = ({ prod }) => {
 				<p className="text-white font-bold text-lg"> Precio: {prod.price}</p>
 			</section>
 			<footer className="ItemFooter">
-				<ItemCount initial={1} stock={prod.stock} onAdd={(quantity) => console.log('Cantidad Agregada')} />
+				<ItemCount initial={1} stock={prod.stock} prod={prod} onAdd={(quantity) => console.log('Cantidad Agregada')} />
 			</footer>
 
 		</article>

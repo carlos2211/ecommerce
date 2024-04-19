@@ -1,0 +1,55 @@
+.ItemOnCartContainerProductImgContainer {
+    color:aliceblue;
+    width: 200px;
+    height: 150px;
+}
+
+.ItemOnCartContainerProductImg {
+    width: 100%;
+    height: 100%;
+}
+
+.ItemOnCartContainerProductInfo {
+    color:aliceblue;
+    padding-left: 40px;
+    /* display: flex; */
+    flex-direction: column;
+    width: 100%;
+}
+
+.ItemOnCartContainerProductTitle {
+    width: 100%;
+    color:aliceblue;
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: var(--colorTextoAmarillo);
+}
+
+.ItemOnCartContainerProductCantidad {
+    width: 70%;
+    color:aliceblue;
+    color: var(--colorTextoAmarillo);
+}
+
+.ItemOnCartContainerProductPrecio {
+    width: auto;
+    color:aliceblue;
+    color: var(--colorTextoAmarillo);
+}
+
+.ItemOnCartContainerProductDelete {
+    width: 10%;
+    color:aliceblue;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ItemOnCartContainerProductDeleteIcon {
+    cursor: pointer;
+    color:aliceblue;
+    color: var(--colorTextoAmarillo);
+}

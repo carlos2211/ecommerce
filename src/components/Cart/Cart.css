@@ -1,0 +1,6 @@
+.cc {
+    width: 100vw; /* Usando el ancho completo de la pantalla */
+    max-width: 100%; /* Limitando el ancho máximo */
+    min-height: 50vh; /* Estableciendo un alto mínimo para ocupar toda la pantalla */
+    
+}

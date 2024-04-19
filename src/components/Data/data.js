@@ -31,7 +31,7 @@
         id: 4,
         stock: 15,
         title: "Vestido Negro de mujer",
-        img: "https://www.leidiro.cl/cdn/shop/products/v344281jgri0s_-19-c4922ae4-0c87-4d07-b1ef-45009570d155.jpg?v=1687976758&width=1000",
+        img: "https://falabella.scene7.com/is/image/Falabella/gsc_124188127_3886767_1?wid=1500&hei=1500&qlt=70",
         description: "Vestido Negro elegante para mujer.",
         price: 39.99,
         category: "RopaMujer",

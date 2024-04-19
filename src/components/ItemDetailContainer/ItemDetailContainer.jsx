@@ -1,27 +1,24 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { products } from "../data/data";
+import { getOneProducts } from "../../services/firebase";
 import { ItemDetail } from "../ItemDetail/ItemDetail";
-import "./ItemDetailContainer.css";
-
+import { Loader } from "../Loader/Loader";
 
 export const ItemDetailContainer = () => {
 	const { idItem } = useParams();
+	const [loading, setLoading] = useState(true);
 
 	const [myProduct, setMyProduct] = useState({});
-	const myPromise = new Promise((resolve) => {
-		setTimeout(() => {
-			resolve(products);
-		}, 1000);
-	});
 	useEffect(() => {
-
-		const itemId = parseInt(idItem);
-
-		myPromise.then((data) => {			
-			setMyProduct(data.find((prod) => prod.id === itemId));
-		});
+		getOneProducts(idItem)
+			.then((data) => {
+				setMyProduct(data);
+			})
+			.finally(() => setLoading(false));
 	}, [idItem]);
+
+	if (loading) return <Loader />;
+
 
 	return (
 		<div>
